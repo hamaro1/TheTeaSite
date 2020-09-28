@@ -48,6 +48,15 @@ section{
     padding: 20px;
 }
 
+#article{
+	font-family: Alegreya;
+	align: center-left;
+}
+
+#articletitle{
+	font-family: Alegreya;
+}
+
 footer{
     background-color: #8e7cc3ff;
     padding: 10px 20px;
