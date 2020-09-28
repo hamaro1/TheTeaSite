@@ -74,3 +74,10 @@ hr.topLine{
     height: 10px;
     background-color: #8e7cc3ff;
 }
+feature div.left{
+    float: left;
+}
+feature div.center{
+    text-align: right;
+    
+}
