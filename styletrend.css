@@ -2,34 +2,53 @@ body#trend{
     margin: 0;
     padding: 0;
 }
+
 section.mainSection{
     color: white;
     background-color: black;
     margin-top: 50px;
-
 }
 
-div.mainBG{
-    font-family: "Comfortaa","Cuprum", Arial;
+/*div.mainBG{
+    font-family: Comfortaa,Cuprum, Arial, Oswald;
+    text-align: center;
 
+} */
+
+div#topLeft{
+    width: 50%;
+    text-align: center;
+    position: relative;
 }
 
+div#bottomLeft{
+    width: 50%;
+}
+
+h1{
+    font-family: "Oswald";
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-size: medium;
+}
+
+div.topRight{
+    width: 51%;
+    float: right;
+    top: -40px;
+}
+
+.row {
+    display: flex;
+}
 .column{
-    float: left;
-    width: 25%;
+    flex: 50%;
     padding: 5px;
 }
 
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-section#topLeft{
-    text-align: center;
-
-}
 
 hr#TrendtopLine{
     width: 100%;
@@ -39,8 +58,37 @@ hr#TrendtopLine{
     background-color: #8e7cc3ff;
     box-shadow: #8e7cc3ff;
 }
-
-.mainBG h1#topL{
+figure{
     text-align: center;
-
 }
+
+figcaption{
+    color: black;
+    background-color: white;
+    font-family: "Cuprum";
+    font-weight: bold;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3154a2;
+    color: white;
+    font-family: Arial;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
