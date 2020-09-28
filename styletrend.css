@@ -4,14 +4,13 @@ body#trend{
 }
 section.mainSection{
     color: white;
-    font-size: 30px;
     background-color: black;
     margin-top: 50px;
 
 }
 
 div.mainBG{
-    font-family: "Cuprum", Arial, "Comfortaa";
+    font-family: "Comfortaa","Cuprum", Arial;
 
 }
 
@@ -39,4 +38,9 @@ hr#TrendtopLine{
     padding-left: 19px;
     background-color: #8e7cc3ff;
     box-shadow: #8e7cc3ff;
+}
+
+.mainBG h1#topL{
+    text-align: center;
+
 }
