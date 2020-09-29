@@ -6,7 +6,9 @@ body#trend{
 section.mainSection{
     color: white;
     background-color: black;
-    margin-top: 50px;
+    margin-top: 35px;
+    padding:0;
+
 }
 
 /*div.mainBG{
@@ -25,6 +27,11 @@ div#bottomLeft{
     width: 50%;
 }
 
+div#bottomright{
+    width: 50%;
+    float: right;
+}
+
 h1{
     font-family: "Oswald";
     font-size: 50px;
@@ -39,6 +46,7 @@ div.topRight{
     width: 51%;
     float: right;
     top: -40px;
+    margin: 0;
 }
 
 .row {
@@ -76,8 +84,8 @@ figcaption{
     background-color: #3154a2;
     color: white;
     font-family: Arial;
-    padding-left: 25px;
-    padding-right: 25px;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
     font-weight: bolder;
 }
 
@@ -92,3 +100,13 @@ figcaption{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+div#left{
+    float: left;
+    background-color: black;
+}
+
+div#right{
+    float: right;
+    background-color: black;
+}
