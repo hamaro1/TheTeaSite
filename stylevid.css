@@ -5,15 +5,20 @@ body#video{
     font-family: 'Oswald';
     color: #741b47;
 }
+
+div#rightV{
+   /* float: right;*/
+    width: 50%;
+    padding-bottom: 5em;
+}
+
 div#video1{
 
 }
 
-h1 #topTitle{
+h1#topTitle{
     font-size: 24px;
-}
-
-h2{
-    font-size: 23px;
-    text-align: center;
+    color: #741b47;
+    letter-spacing: normal;
+    padding-left: 1em;
 }
