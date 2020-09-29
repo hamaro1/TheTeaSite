@@ -1,6 +1,7 @@
 body#trend{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 section.mainSection{
@@ -18,18 +19,19 @@ section.mainSection{
 } */
 
 div#topLeft{
-    width: 50%;
+   /* width: 50%;*/
     text-align: center;
     position: relative;
 }
 
 div#bottomLeft{
-    width: 50%;
+    /*width: 50%;*/
 }
 
 div#bottomright{
-    width: 50%;
+    /*width: 50%;*/
     float: right;
+    padding-top: 3.6em;
 }
 
 h1{
@@ -43,10 +45,12 @@ h3{
 }
 
 div.topRight{
-    width: 51%;
+   /* width: 51%;*/
     float: right;
     top: -40px;
     margin: 0;
+    padding-bottom: 3.6em;
+    clear: both;
 }
 
 .row {
@@ -59,7 +63,7 @@ div.topRight{
 
 
 hr#TrendtopLine{
-    width: 100%;
+   /* width: 100%;*/
     margin-top: 15px;
     height: 10px;
     padding-left: 19px;
@@ -104,9 +108,16 @@ figcaption{
 div#left{
     float: left;
     background-color: black;
+    width: 50%;
 }
 
 div#right{
     float: right;
     background-color: black;
+    width: 50%;
+    padding-bottom: 5em;
+}
+
+br#br1{
+    clear: right;
 }

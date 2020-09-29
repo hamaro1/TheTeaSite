@@ -5,12 +5,19 @@ body{
     font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
 }
 
+nav{
+    background-color: #d0e0e3ff;
+    margin:0;
+}
+
 header{
-    padding: 20px;
+    /*padding: 20px;*/
+    padding-bottom: 1.2em;
     height: 100px;
     font-size: 26px;
     background-color: #d0e0e3ff;
     text-align: center;
+    margin: 0;
 }
 
 header a{
@@ -85,6 +92,7 @@ hr.topLine{
     padding-left: 19px;
     background-color: #8e7cc3ff;
 }
+
 feature div.left{
     float: left;
 }
