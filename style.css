@@ -53,6 +53,7 @@ li{
 
 section{
     padding: 20px;
+    margin:0;
 }
 
 #article{
@@ -89,8 +90,9 @@ hr.topLine{
     width: 100%;
     margin-top: 15px;
     height: 10px;
-    padding-left: 19px;
     background-color: #8e7cc3ff;
+    padding-left: 19px;
+    margin-right: 0;
 }
 
 feature div.left{
