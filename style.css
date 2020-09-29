@@ -102,3 +102,7 @@ feature div.center{
     text-align: right;
     
 }
+
+footer h1, h2, h3{
+    font-family: "Roboto Mono"
+}
