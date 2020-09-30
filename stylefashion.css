@@ -10,6 +10,7 @@ section#mainf{
   text-align: center;
   font-family: Impact;
   color: white;
+  font-size:40px;
 }
 
 .centered {
@@ -48,6 +49,12 @@ section#mainf{
   float: left;
   width: 33.33%;
   padding: 5px;
+}
+
+
+
+#fashionbanner{
+	margin-bottom: -17em;
 }
 
 
