@@ -51,7 +51,7 @@ div.topRight{
     float: right;
     top: -40px;
     margin: 0;
-    padding-bottom: 3.6em;
+    padding-bottom: 1.6em;
     clear: both;
 }
 
@@ -81,6 +81,7 @@ figcaption{
     background-color: white;
     font-family: "Cuprum";
     font-weight: bold;
+    padding: 0.5em 0 0.5em;;
 }
 
 .text-block {
@@ -117,7 +118,7 @@ div#right{
     float: right;
     background-color: black;
     width: 50%;
-    padding-bottom: 5em; 
+    padding-bottom: 3em;
 }
 
 br#br1{
@@ -125,7 +126,22 @@ br#br1{
 }
 
 .content-wrapper {
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 2000px;
-    position: relative ;
+    position: relative ;*/
+} 
+
+div#main2{
+    color: purple;
+    background-color: black;
+    margin-top: 35px;
+    padding:0;
+    padding-bottom: 2.3em;
+}
+
+#words{
+    text-align: center;
+    padding-left: 5em;
+    text-align: center;
+    position: relative;
 }
