@@ -67,7 +67,22 @@ section{
 }
 
 articlepic{
-	margin-left: 300px;
+	
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  font-family: Impact;
+  color: white;
+  font-size:40px;
+ 
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 footer{
