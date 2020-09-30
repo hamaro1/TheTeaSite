@@ -27,8 +27,8 @@ function updatePoints(){
     document.getElementById("voting-box").style.gridTemplateColumns=  percentA + "% " + percentB + "%";
 
     document.getElementById("total-votes").innerHTML = "Total Votes Casted: " + totalVotes;
-    document.getElementById("total-left").innerHTML = "Option A: " + pointA;
-    document.getElementById("total-right").innerHTML = "Option B: " + pointB;
+    document.getElementById("total-left").innerHTML = "Spring: " + pointA;
+    document.getElementById("total-right").innerHTML = "Fall: " + pointB;
     document.getElementById("host-name").innerHTML = "Hosted by: pragyakar";
 }
 
@@ -37,8 +37,8 @@ function setup() {
     pointB = 1;
     totalVotes = pointA + pointB;
 
-    document.getElementById("option-one").innerHTML = "Option A";
-    document.getElementById("option-two").innerHTML = "Option B";
+    document.getElementById("Spring").innerHTML = "Spring";
+    document.getElementById("Fall").innerHTML = "Fall";
 
     updatePoints();
 }
