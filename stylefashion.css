@@ -1,9 +1,17 @@
+section#mainf{
+    color: white;
+    margin-top: 35px;
+    padding:0;
+    padding-bottom: 2.3em;
+    background-color: #d0e0e3ff;
+}
 .container {
   position: relative;
   text-align: center;
   font-family: Impact;
   color: white;
 }
+
 .centered {
   position: absolute;
   top: 50%;

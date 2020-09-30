@@ -111,3 +111,9 @@ feature div.center{
 footer h1, h2, h3{
     font-family: "Roboto Mono"
 }
+
+section#mainI{
+    margin-top: 35px;
+    padding:0;
+    padding-bottom: 2.3em;
+}
