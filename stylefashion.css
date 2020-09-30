@@ -1,0 +1,16 @@
+*{
+	box-sizing: border-box;
+}
+
+.pic{
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+}
+
+
+.stylesinspo:: after{
+	content: "";
+	clear: both;
+	display: table;
+}
