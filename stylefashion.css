@@ -51,10 +51,19 @@ section#mainf{
   padding: 5px;
 }
 
+#topFLine{
+    /* margin-top: 15px; */
+    margin-top: 10px;
+    height: 10px;
+    padding: 0.3em 0 ;
+    background-color: #8e7cc3ff;
+    box-shadow: #8e7cc3ff;
+
+}
 
 
 #fashionbanner{
-	margin-bottom: -17em;
+  margin-bottom: -17em;
 }
 
 
