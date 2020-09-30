@@ -2,6 +2,7 @@ body#trend{
     margin: 0;
     padding: 0;
     background-color: black;
+    position: absolute;
 }
 
 section.mainSection{
@@ -116,9 +117,15 @@ div#right{
     float: right;
     background-color: black;
     width: 50%;
-    padding-bottom: 5em;
+    padding-bottom: 5em; 
 }
 
 br#br1{
     clear: right;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 2000px;
+    position: relative ;
 }
