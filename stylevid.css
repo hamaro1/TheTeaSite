@@ -96,4 +96,10 @@ hr#maindivideo{
 
   table td{
       text-align: center;
+      color: white;
+  }
+
+  table th{
+    font-family: 'Oswald';
+    color: white;   
   }
